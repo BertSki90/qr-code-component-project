@@ -49,11 +49,26 @@ main {
 
 div {
     background-color: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
     width: 100%;
     max-width: 370px;
 }
 
 img {
+    border-radius: 10px;
+    margin-bottom: 20px;
     object-fit: cover;
     width: 100%;
+}
+ h1 {
+    color: var(--slate-900);
+    font-size: 1.7rem;
+ }
+
+p {
+    color: var(--slate-500);
+    font-size: 1.2rem;
+    margin: 20px 0;
 }

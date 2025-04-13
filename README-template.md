@@ -21,6 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
+![Screenshot](./screenshots\Screenshot-html-qr-code.png)
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
@@ -39,58 +40,64 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 - HTML, I was advised to always wrap my content with the main element to start. Next a div element was placed for the container. Inside the container the img, h1, and p elements were placed in that order.
-- CSS, Following the style guide provided the appropriate font was imported, colors set up in root, and reset the default HTML styling. For the body the font-family and font-size were styled according to the style guide.
-  Styled the div and the elements nested within.
+- CSS, Following the style guide I provided the appropriate imported font, set up colors in root, and reset the default HTML styling. For the body element the font-family and font-size were applied according to the style guide.
+  Styled the div and the elements nested within it starting at the top and working my way down.
+- Final, Played around with the values of some CSS properties to get a match to the design .jpg file.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+How to center the div element on the screen vertically. I could not get the "margin: auto;" to work. So i resorted to using flex.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<body>
+  <main>
+    <div class="container">
+      <img src="images\image-qr-code.png" alt="qr code" />
+      <h1 class="outfit-bold">
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="outfit-regular">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </main>
+</body>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+main {
+  height: 100vh;
+  width: 100vw;
+  /* ||||  |||| */
+  /* Centers the div element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ||||  |||| */
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To continue improving my HTML and CSS skills.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3Schools](https://www.w3schools.com/css/css_align.asp) - This helped me to place the div element in the center of the screen.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
@@ -104,6 +111,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I have done most of my learning at FreeCodeCamp.org. It is a great community. I am excited to start Frontend Mentor projects.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
