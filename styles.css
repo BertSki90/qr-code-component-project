@@ -53,7 +53,7 @@ div {
     padding: 20px;
     text-align: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 img {
@@ -64,11 +64,11 @@ img {
 }
  h1 {
     color: var(--slate-900);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
  }
 
 p {
     color: var(--slate-500);
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     margin: 20px 10px;
 }
