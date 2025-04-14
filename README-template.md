@@ -19,18 +19,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+To create the QR Component project to the specifications of the provided design.
+
 ### Screenshot
 
-![Screenshot](./screenshots/Screenshot-html-qr-code.png)
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot of HTML code](./screenshots/Screenshot-html-qr-code.png)
+![Screenshot of CSS code lines 1-37](./screenshots/Screenshot-css-qr-code1.png)
+![Screenshot of CSS code lines 38-74](./screenshots/Screenshot-css-qr-code2.png)
 
 ### Links
 
@@ -40,9 +35,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 - HTML, I was advised to always wrap my content with the main element to start. Next a div element was placed for the container. Inside the container the img, h1, and p elements were placed in that order.
-- CSS, Following the style guide I provided the appropriate imported font, set up colors in root, and reset the default HTML styling. For the body element the font-family and font-size were applied according to the style guide.
+- CSS, Following the style guide provided I imported the font, set up colors in root, and reset the default HTML styling. For the body element the font-family and font-size were applied according to the style guide.
   Styled the div and the elements nested within it starting at the top and working my way down.
-- Final, Played around with the values of some CSS properties to get a match to the design .jpg file.
+- Final, Played around with the values of some CSS properties to get a match to the design of the .jpg files in the "design" folder.
 
 ### Built with
 
@@ -51,11 +46,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-How to center the div element on the screen vertically. I could not get the "margin: auto;" to work. So i resorted to using flex.
+How to center the div element on the screen vertically. I could not get the "margin: auto;" to work. I resorted to using flex.
 
 ```html
 <body>
@@ -87,30 +80,22 @@ main {
 }
 ```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 To continue improving my HTML and CSS skills.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
 - [W3Schools](https://www.w3schools.com/css/css_align.asp) - This helped me to place the div element in the center of the screen.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@BerSki90](https://www.frontendmentor.io/profile/BertSki90)
+- Twitter - [@BertSki90](https://www.twitter.com/BertSki90)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
 I have done most of my learning at FreeCodeCamp.org. It is a great community. I am excited to start Frontend Mentor projects.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
