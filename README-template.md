@@ -29,7 +29,7 @@ To create the QR Component project to the specifications of the provided design.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/BertSki90/qr-code-component-project)
 - Live Site URL: [Github Pages @BertSki90](https://bertski90.github.io/qr-code-component-project/)
 
 ## My process
@@ -90,11 +90,9 @@ To continue improving my HTML and CSS skills.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- GitPages - [@BertSki90](https://bertski90.github.io/qr-code-component-project/)
 - Frontend Mentor - [@BertSki90](https://www.frontendmentor.io/profile/BertSki90)
 - Twitter - [@BertSki90](https://www.twitter.com/BertSki90)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
