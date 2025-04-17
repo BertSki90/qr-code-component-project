@@ -46,14 +46,14 @@ main {
     align-items: center;
     /* ||||  |||| */
 }
-
+/* Touch up padding (less all around) */
 div {
     background-color: var(--white);
     border-radius: 20px;
     padding: 20px;
     text-align: center;
     width: 100%;
-    max-width: 320px; /* 300px - 330px */
+    max-width: 320px;
 }
 
 img {
@@ -62,11 +62,12 @@ img {
     object-fit: cover;
     width: 100%;
 }
+
  h1 {
     color: var(--slate-900);
     font-size: 1.5rem;
  }
-
+/* Touch up margins (less on top) */
 p {
     color: var(--slate-500);
     font-size: 0.9rem;
