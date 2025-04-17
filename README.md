@@ -15,8 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 To create the QR Component project to the specifications of the provided design.
@@ -29,7 +27,7 @@ To create the QR Component project to the specifications of the provided design.
 
 ### Links
 
-- Solution URL: [Github](https://github.com/BertSki90/qr-code-component-project)
+- Solution URL: [Github @BertSki90](https://github.com/BertSki90/qr-code-component-project)
 - Live Site URL: [Github Pages @BertSki90](https://bertski90.github.io/qr-code-component-project/)
 
 ## My process
